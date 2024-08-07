@@ -6,9 +6,6 @@ import { TbWashMachine } from "react-icons/tb";
 import { GrPaint } from "react-icons/gr";
 
 
-
-
-
 const services = [
     {
         id: 1,
