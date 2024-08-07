@@ -12,7 +12,7 @@ const services = [
         title: 'Cleaning',
         icon: <GiBroom />,
         link: '/cleaning',
-        color: 'green-400',
+        color: 'text-green-400',
         back: 'bg-green-200'
     },
     {
@@ -20,7 +20,7 @@ const services = [
         title: 'Repairing',
         icon: <LiaToolsSolid />,
         link: '/repairing',
-        color: 'blue-400',
+        color: 'text-blue-400',
         back: 'bg-blue-200'
     },
     {
@@ -28,7 +28,7 @@ const services = [
         title: 'Laundry',
         icon: <TbWashMachine />,
         link: '/laundry',
-        color: 'yellow-400',
+        color: 'text-yellow-400',
         back: 'bg-yellow-200'
     },
     {
@@ -36,7 +36,7 @@ const services = [
         title: 'Painting',
         icon: <GrPaint />,
         link: '/painting',
-        color: 'purple-400',
+        color: 'text-purple-400',
         back: 'bg-purple-200'
     },
 
@@ -59,7 +59,7 @@ export default function Category() {
                                 <div className={`${service.back} w-fit rounded-xl`}>
 
                                     <Link href='/'>
-                                        <div className={`text-4xl text-${service.color} p-3`}>
+                                        <div className={`text-4xl ${service.color} p-3`}>
                                             {service.icon}
                                         </div>
 
