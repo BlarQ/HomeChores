@@ -68,7 +68,7 @@ export default function Recommended() {
                                 <div>
                                     <div className='text-red-400 bg-red-50 px-2 rounded-md py-1'>
 
-                                    <p className='text-sm'>Off {item.percentage}%</p>
+                                    <p className='text-sm font-bold'>Off {item.percentage}%</p>
                                     </div>
                                 </div>
                             </div>

@@ -20,7 +20,7 @@ export default function Header() {
             >Home</span>Chores</Link>
         </div>
 
-        <div className='flex justify-between items-center w-[22%]'>
+        <div className='flex justify-between items-center gap-3'>
             <div>
 
                 <Link href='/'>
